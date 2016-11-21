@@ -18,6 +18,14 @@
 .menu > li {
   display: inline;
 }
+.menu > li > a {
+  text-decoration: none;
+  color: #000066;
+}
+.menu > li > a.active {
+  text-decoration: underline;
+  color: #0044cc;
+}
 
 .menu > li + li:before {
   content: "|";
